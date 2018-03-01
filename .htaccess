@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteRule ^request ajax/request.php
+
+RewriteRule ^files/ads/(big|medium|thumb)/([a-zA-Z0-9]+).jpg uploads/index.php?folder=ads&size=$1&imageHash=$2
+RewriteRule ^files/store/(big|thumb)/([a-zA-Z0-9]+).jpg uploads/index.php?folder=store&size=$1&imageHash=$2
+RewriteRule ^files/news/(big|thumb)/([a-zA-Z0-9]+).jpg uploads/index.php?folder=news&size=$1&imageHash=$2
+RewriteRule ^files/slider/([a-zA-Z0-9]+).jpg uploads/index.php?folder=slider&size=default&imageHash=$1
+RewriteRule ^files/banner/([a-zA-Z0-9]+).jpg uploads/index.php?folder=banner&size=default&imageHash=$1
+
+RewriteRule ^cat-([0-9]+)/(.*) index.php?url=category&catId=$1&catSeflink=$2
+RewriteRule ^category-special/(.*) index.php?url=category-special&catType=$1
+RewriteRule ^view/(.*)-([0-9]+) index.php?url=view&seflink=$1&id=$2
+RewriteRule ^forgot&token=(.*) index.php?url=forgot&token=$1
+RewriteRule ^my-ads/(active|passive|finished|pending|unconfirmed)?page=([0-9]+) index.php?url=my-ads/$1&page=$2
+RewriteRule ^my-ads/(active|passive|finished|pending|unconfirmed)?pageSize=([0-9]+) index.php?url=my-ads/$1&pageSize=$2
+RewriteRule ^user-([0-9]+)/(.*) index.php?url=user&userId=$1&userSeflink=$2
+
+RewriteRule ^([0-9a-zA-Z-_/]+)$ index.php?url=$1 [QSA]
+AddType image/svg+xml .svg .svgz

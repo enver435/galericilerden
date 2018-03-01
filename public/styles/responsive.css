@@ -1,0 +1,135 @@
+/*
+	# @Author: Enver Abbasov | https://www.facebook.com/enverabbasov435
+	# @Date:   2017-08-13 20:59:20
+	# @Email:  abbasovenver1999@gmail.com
+	# @Last Modified time: 2018-01-19 14:29:36
+*/
+
+@media only screen and (max-width: 1200px)
+{
+	#header .search {margin-right: 0;}
+	.slider .item {height: 212px;}
+	.ad-images .col-md-2 {width: 24.66666667%;}
+	.ad-images .upload-button i {min-height: 150px;}
+	.ad-images .uploaded-images .image {height: 150px;}
+
+	.banner250 {height: 212px;}
+}
+
+@media only screen and (max-width: 991px)
+{
+	#footer .footer-main ul {margin-bottom: 50px;}
+	#header .logo {display: inline-block;margin-left: auto;margin-right: auto;width: 100%;background-position: center;}
+	.blocks .block .block-content {margin-left: 0;margin-right: 0;padding-top: 5px;padding-bottom: 5px !important;}
+	.blocks .block .block-content .col-xs-4 {padding-right: 5px;padding-left: 5px;}
+	.list {margin-bottom: 5px;}
+	.categories::-webkit-scrollbar {display: none;}
+	.categories .category .list-group::-webkit-scrollbar {display: none;}
+	.categories .category .list-group-item i {display: block;}
+	.mobile-categories {display: block;}
+	.step-content .col-md-11 {margin-left: 0 !important;}
+	.ad-add-content {padding: 0;padding-top: 15px;padding-bottom: 15px;}
+	.contact-info .row:first-child {margin-left: 0;}
+	.contact-information {margin-top: 25px;}
+	
+	.ad-doping-step .doping-step-1 .doping .doping-header {text-align: center;margin-top: 20px;}
+	.ad-doping-step .doping-step-1 .doping {padding: 0;}
+	.ad-doping-step .doping-step-1 .doping i {margin-left: 0;}
+
+	.ads-container .message-doping-up {line-height: 1.5;padding: 15px;font-size: 12px;height: auto;}
+	.ads-container .block {margin-bottom: 140px;}
+	.mobilePagination {margin-top: -110px;}
+
+	#sortModal, #phonesModal {margin-top: 15%;}
+
+	.ad-thumb-images {display: none;}
+	.ad-detail {margin-bottom: 80px;}
+	.ad-detail .col-md-4:nth-child(3) {display: none;}
+	.ad-detail .col-md-4:nth-child(2) .ad-detail-block {margin-top: 25px;}
+	.ad-detail .ad-price {text-align: left;}
+	.ad-title {font-size: 16px;}
+	.nav-tabs>li {float: none;text-align: center;}
+
+	.profile-tab li {display: block;margin-right: 0;margin-bottom: 15px;}
+	
+	.store-content .col-md-3 {padding: 0;}
+	.store-content .left-sidebar {top: 0;right: 0;overflow: hidden;}
+	.store-content .block.col-sm-6.col-sm-offset-3 {border: 1px solid #e8e8e8;}
+	.store-content .block.col-sm-6.col-sm-offset-3 .block-content {border: none;}
+
+	.ad-list .col-lg-10.col-md-10 {width: 100% !important;padding-left: 15px !important;}
+
+	.hmobile {height: 180px;}
+
+	.corporate-message button {width: 100%;float: none;margin-top: 7px;}
+}
+
+@media only screen and (max-width: 768px) 
+{
+	.ad-images .upload-button i {min-height: 120px;}
+	.ad-images .uploaded-images .image {height: 120px;}
+	.home-bottom .col-md-2.col-sm-4.col-xs-4:nth-child(3n+1) {clear: left;}
+	#sortModal, #phonesModal {margin-top: 20%;}
+	.list {max-height: 250px;}
+
+	.showApp {top: 60px !important;}
+	.sidenav.showApp {top: 120px !important;}
+}
+
+@media only screen and (max-width: 500px) 
+{
+    #footer .pull-left, #footer .pull-right {float: none !important;}
+    #footer .footer-bottom .logo {display: block;margin: auto;width: 100%;background-position: center center;}
+	#footer .footer-bottom .market {display: block;margin-top: 25px !important;text-align: center;}
+	#footer .footer-bottom .market li {margin: auto;text-align: center;margin-bottom: 10px;}
+
+	.ad-images .col-xs-6 {width: 50% !important;}
+	.payment-loader .loader {margin-left: 37%;margin-top: 100%;}
+
+	.ad-list .ads-container .tab-menu li {float: none;}
+	.list {max-height: 140px;}
+
+	.send-message .ad-info .ad-left {float: none;margin-right: 0;}
+	.send-message .ad-info .ad-left img {display: block;margin: auto;float: none;}
+	.send-message .ad-info .ad-right {float: none;} 
+	.send-message .ad-info {text-align: center;}
+	.send-message .default-block {text-align: center;}
+	.send-message .default-block i {float: none;display: block;width: 100%;margin-bottom: 15px;}
+	.send-message .default-block p {margin-left: 0;margin-right: 0;}
+	
+	.my-messages .ad-info .ad-left {float: none;margin-right: 0;}
+	.my-messages .ad-info .ad-left img {display: block;margin: auto;float: none;}
+	.my-messages .ad-info .ad-right {float: none;} 
+	.my-messages .ad-info {text-align: center;}
+	.my-messages b.name-surname {display: block;}
+	.my-messages .message-right {display: none;}
+	.my-messages .phone-no {margin-left: 0;display: block;margin-top: 10px;text-align: center;}
+	.my-messages .default-block {text-align: center;}
+	.my-messages .default-block i {float: none;display: block;width: 100%;margin-bottom: 15px;}
+	.my-messages .default-block p {margin-left: 0;margin-right: 0;}
+
+	.my-favorites .favorite-right {float: none;}
+	.my-favorites .favorite-left {margin-left: 0;float: none;}
+	.my-favorites img {float: none;display: block;margin: auto;}
+	.my-favorites .favorite {text-align: center;}
+}
+
+@media only screen and (max-width: 400px) 
+{
+	.ad-images .upload-button i {min-height: 100px;}
+	.ad-images .uploaded-images .image {height: 100px;}
+}
+
+@media only screen and (max-width: 425px)
+{
+	.home-bottom .col-md-2.col-sm-2.col-xs-4:nth-child(3n+1) {clear: left;}
+}
+
+@media (min-width: 1200px) 
+{
+  	.home-bottom .col-md-2.col-sm-2.col-xs-4:nth-child(6n+1) {clear: left;}
+}
+@media (min-width: 768px) and (max-width: 1199px) 
+{
+  	.home-bottom .col-md-2.col-sm-2.col-xs-4:nth-child(6n+1) {clear: left;}
+}
